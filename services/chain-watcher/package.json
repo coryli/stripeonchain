@@ -17,5 +17,6 @@
   },
   "devDependencies": {
     "@types/pg": "^8.18.0"
+    "ioredis": "^5.10.0"
   }
 }
