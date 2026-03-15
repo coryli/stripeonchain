@@ -31,6 +31,18 @@ export interface TransferLog {
   value: string;
 }
 
+export interface ChainTransactionMessage {
+  chain: SupportedChain;
+  tx_hash: string;
+  block_number: number;
+  block_hash: string;
+  amount: string;
+  sender: string;
+  receiver: string;
+  token_contract: string;
+  detected_at: string;
+}
+
 export type DeliveryStatus = 'pending' | 'succeeded' | 'failed';
 
 export type MismatchType =
