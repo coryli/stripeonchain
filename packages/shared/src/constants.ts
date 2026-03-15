@@ -42,3 +42,10 @@ export const CHAIN_WATCHER = {
   WS_RECONNECT_BACKOFF_MULTIPLIER: 2,
   MAX_BLOCKS_PER_POLL: 100,
 };
+
+export const BASE_SEPOLIA = {
+  CHAIN_ID: 84532,
+  USDC_CONTRACT: '0x036CbD53842c5426634e7929541eC2318f3dCF7e',
+  RPC_HTTP: 'https://sepolia.base.org',
+  RPC_WS: 'wss://sepolia.base.org',
+};
