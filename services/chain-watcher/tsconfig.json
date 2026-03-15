@@ -4,8 +4,6 @@
     "outDir": "./dist",
     "rootDir": "./src"
   },
-  "include": ["src"],
-  "references": [
-    { "path": "../../packages/shared" }
-  ]
+  "include": ["src", "*.config.ts"],
+  "references": [{ "path": "../../packages/shared" }]
 }
